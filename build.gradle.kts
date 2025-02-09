@@ -1,9 +1,21 @@
+/*
+ * Approximaster ModLoader 1.20.6
+ * Copyright (C) Approximaster Studios 2004. All Rights Reversed.
+ *
+ *
+ *
+ *
+ *
+ *
+ */
+
+
 plugins {
     id("java")
-    id("com.github.johnrengelman.shadow") version "7.0.0"
+  //  id("com.github.johnrengelman.shadow") version "7.0.0"
 }
 
-group = "com.example"
+group = "com.ddnsgeek.approximasterstudios2004.modloader"
 version = "1.20.6-R000-SNAPSHOT"
 
 repositories {
@@ -33,19 +45,23 @@ repositories {
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.20.6-R0.1-SNAPSHOT") // PaperMC
-    compileOnly("com.github.Slimefun:Slimefun4:master-SNAPSHOT") // item
+    compileOnly("com.github.slimefun:Slimefun4:master-RC-7-ga1a2abb-5845") // Dropped
     compileOnly("de.tr7zw:item-nbt-api-plugin:VERSION") // NBT
     compileOnly("su.nightexpress.nightcore:nightcore:2.7.1") // NightCore
+    /* 
+     * Patched SpigotMC in case all org.bukkit.*, org.spigotmc.* is eliminated. 
+     * Currently, there are no Status about
+     * implementation(:project("approximaster-paper-spigot-adapter")) 
+     */ 
     compileOnly("com.viaversion:viaversion-api:5.2.2-SNAPSHOT") // 1.20.6-1.21.4 PacketHandler
     implementation("net.lenni0451:optconfig:1.1.1-SNAPSHOT") // Bukkit Config API Replacement
 }
-
- /* 
+ 
 tasks {
     withType<Jar> {
         archiveClassifier.set("")
         manifest {
-            attributes["Main-Class"] = "com.example.MyPlugin"
+            attributes["Main-Class"] = "com.ddnsgeek.approximasterstudios2004.modloader"
         }
         from(sourceSets.main.get().output)
     }
@@ -54,7 +70,6 @@ tasks {
         archiveClassifier.set("shadow")
         from(sourceSets.main.get().output)
     }
-  */
 
     processResources {
         filesMatching("plugin.yml") {
