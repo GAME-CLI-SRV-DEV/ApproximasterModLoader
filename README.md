@@ -11,7 +11,7 @@ Please Stand By.
 
 # 확장
 
-## 페이퍼어댑터
+## 페이퍼스피곳브릿지
 Bridges Bukkit-API and Spigot-API. this will come out if Slimefun 1.21 is released.
 
 ## Approximaster Compiler
