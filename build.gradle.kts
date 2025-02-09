@@ -2,11 +2,11 @@
  * Approximaster ModLoader 1.20.6
  * Copyright (C) Approximaster Studios 2004. All Rights Reversed.
  *
- *
- *
- *
- *
- *
+ * Powered By Slimefun
+ * Can Run on Spigot.
+ * 
+ * the 
+ * Deprecated: This Build is Dropped at 1.20.6 in favor of 1.21.4
  */
 
 
@@ -17,6 +17,7 @@ plugins {
 
 group = "com.ddnsgeek.approximasterstudios2004.modloader"
 version = "1.20.6-R000-SNAPSHOT"
+cheat = "1.20.6-R0.1-SNAPSHOT"
 
 repositories {
     mavenCentral()
@@ -49,8 +50,9 @@ dependencies {
     compileOnly("de.tr7zw:item-nbt-api-plugin:VERSION") // NBT
     compileOnly("su.nightexpress.nightcore:nightcore:2.7.1") // NightCore
     /* 
-     * Patched SpigotMC in case all org.bukkit.*, org.spigotmc.* is eliminated. 
-     * Currently, there are no Status about
+     * Patched SpigotMC in case all org.bukkit.*, org.spigotmc.* is eliminated on PaperMC. 
+     * Currently, there are no Status about removal of Bukkit 1.21.4-R0.1-SNAPSHOT 3339db1, Implemented on CraftBukkit Commit c294e05, which is known as Spigot Commit 33ece3e.
+     * if that happens, this comment will be removed. 
      * implementation(:project("approximaster-paper-spigot-adapter")) 
      */ 
     compileOnly("com.viaversion:viaversion-api:5.2.2-SNAPSHOT") // 1.20.6-1.21.4 PacketHandler
