@@ -10,9 +10,14 @@ This Mod Loader Depends On Lot of Bukkit(Reobf) and Modern(Mojmap) Working Plugi
 Dependency:
 EssentialsX, Slimefun(item), PlaceholderAPI(ApproximasterChat), Nightcore(Some Dependencies Need it), CoinsEngine(API), DiscordSRV(Or EssentialsXDiscord), Multiverse, Citizens2
 
-1.21.3 is recommended on this one.
+1.21.3 is recommended on this one. Due to the Change of itemstack, we will only support 1.20/1.21.  
+
+# Approximaster Compiler
+
+Depends on Skript and TRG Script.
+converts the TRG Script + skript into Plugin.
 
 | 모드로더 정보 | 모드로더 정보 |
 |--------------|----------------|
 | 이름 | 아프록시마스터 모드로더 2004 |
-| API | Bukkit API, Spigot API, Paper API, Sponge API, Approximaster Modloader API(Slimefun API, MultiVerse API, Nightcore API, EssentialsX API, Vault, ProtocolLib, LoneLibs, LightAPI, NBT-API) 
+| API | Bukkit API, Spigot API, Paper API, Sponge API, Approximaster Modloader API(Slimefun API, MultiVerse API, Nightcore API, EssentialsX API, Vault, ProtocolLib, LoneLibs, LightAPI, NBT-API, skript) 
