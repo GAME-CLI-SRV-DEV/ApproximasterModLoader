@@ -49,7 +49,7 @@ repositories {
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.20.6-R0.1-SNAPSHOT") // PaperMC
-    compileOnly("com.github.slimefun:Slimefun4:master-RC-7-ga1a2abb-5845") // Dropped
+    compileOnly("com.github.slimefun:Slimefun4:master-SNAPSHOT") // Dropped
     compileOnly("de.tr7zw:item-nbt-api-plugin:VERSION") // NBT
     compileOnly("su.nightexpress.nightcore:nightcore:2.7.1") // NightCore
     compileOnly("org.geysermc.floodgate:api:2.4.4")
