@@ -12,9 +12,9 @@ public class main extends JavaPlugin implements SlimefunAddon {
   
   @Override
   public void onLoad() {
-    System.out.println("Loading Approximaster " + ver + "for " + mc + "...");
+    System.out.println("Loading Approximaster " + ver + "for " + MC + "...");
     TranslationManager translationManager = new TranslationManager(config);
-    System.out.println(TranslationManager.translate("mm_welcome", "User"));
+    System.out.println(TranslationManager.translate("plugin.author", "hello"));
   }
   
 	@Override
