@@ -55,7 +55,7 @@ dependencies {
     compileOnly("com.github.Slimefun:Slimefun4:RC-37") // Dropped
     compileOnly("de.tr7zw:item-nbt-api-plugin:2.14.1") // NBT
     compileOnly("su.nightexpress.nightcore:nightcore:2.7.3") // NightCore
-    compileOnly("org.geysermc.floodgate:api:2.4.4") // Cumulus
+    compileOnly("org.geysermc.floodgate:api:2.2.3-SNAPSHOT") // Cumulus
     compileOnly("net.citizensnpcs:citizens-main:2.0.37-SNAPSHOT")
     /* 
      * Patched SpigotMC in case all org.bukkit.*, org.spigotmc.* is eliminated on PaperMC. 
