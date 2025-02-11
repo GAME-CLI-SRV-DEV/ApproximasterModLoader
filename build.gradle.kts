@@ -21,7 +21,7 @@ version = "1.20.6-R000-SNAPSHOT"
 repositories {
     mavenCentral()
     maven {
-        url = uri("https://papermc.io/repo/repository/maven-public/")
+        url = uri("https://repo.papermc.io/repository/maven-public/")
     }
     maven {
         url = uri("https://jitpack.io/")
