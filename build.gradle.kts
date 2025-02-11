@@ -35,6 +35,10 @@ repositories {
         url = uri("https://repo.opencollab.dev/maven-snapshots/")
     }
     maven {
+        name = "OpenCollab Release"
+        url = uri("https://repo.opencollab.dev/maven-releases/")
+    }
+    maven {
         name = "ViaVersion"
         url = uri("https://repo.viaversion.com/everything/")
     }
