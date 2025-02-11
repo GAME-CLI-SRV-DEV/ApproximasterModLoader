@@ -32,7 +32,7 @@ repositories {
     }    
     maven {
         name = "OpenCollab"
-        url = uri("https://repo.opencollab.dev/main/")
+        url = uri("https://repo.opencollab.dev/maven-snapshots/")
     }
     maven {
         name = "ViaVersion"
