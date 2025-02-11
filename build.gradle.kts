@@ -49,10 +49,10 @@ repositories {
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.20.6-R0.1-SNAPSHOT") // PaperMC
-    compileOnly("com.github.slimefun:Slimefun4:master-RC-7-ga1a2abb-5845") // Dropped
-    compileOnly("de.tr7zw:item-nbt-api-plugin:VERSION") // NBT
+    compileOnly("com.github.slimefun:Slimefun4:RC-37") // Dropped
+    compileOnly("de.tr7zw:item-nbt-api-plugin:2.14.1") // NBT
     compileOnly("su.nightexpress.nightcore:nightcore:2.7.1") // NightCore
-    compileOnly("org.geysermc.floodgate:api:2.4.4")
+    compileOnly("org.geysermc.floodgate:api:2.4.4") // Cumulus
     /* 
      * Patched SpigotMC in case all org.bukkit.*, org.spigotmc.* is eliminated on PaperMC. 
      * Currently, there are no Status about removal of Bukkit 1.21.4-R0.1-SNAPSHOT 3339db1, Implemented on CraftBukkit Commit c294e05, which is known as Spigot Commit 33ece3e.
