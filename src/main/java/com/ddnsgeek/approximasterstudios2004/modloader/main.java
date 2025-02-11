@@ -6,14 +6,15 @@ import net.internationalx.api.TranslationManager;
 
 public class main extends JavaPlugin implements SlimefunAddon {
 
+
+	
+  @Override
+  public void onLoad() {
   String ver = "1.20.6-R000-SNAPSHOT";
   String MC = "1.20.6";
   String Cheat = "1.20.6-R0.1-SNAPSHOT"
-  
-  @Override
-  public void onLoad() {
     System.out.println("Loading Approximaster " + ver + "for " + MC + "...");
-	  Locale systemLocale = Locale.getDefault();
+    Locale systemLocale = Locale.getDefault();
     TranslationManager translationManager = new TranslationManager(systemLocale);
     System.out.println(TranslationManager.translate("plugin.author", "Approximaster Studios 2004"));
   }
