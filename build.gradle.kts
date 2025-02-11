@@ -17,7 +17,6 @@ plugins {
 
 group = "com.ddnsgeek.approximasterstudios2004.modloader"
 version = "1.20.6-R000-SNAPSHOT"
-cheat = "1.20.6-R0.1-SNAPSHOT"
 
 repositories {
     mavenCentral()
