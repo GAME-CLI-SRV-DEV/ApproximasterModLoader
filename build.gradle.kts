@@ -45,14 +45,18 @@ repositories {
     maven {
       url = uri("https://repo.nightexpressdev.com/releases")
     }
+    maven {
+         url = uri("https://maven.citizensnpcs.co/repo")
+    }
 }
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.20.6-R0.1-SNAPSHOT") // PaperMC
     compileOnly("com.github.Slimefun:Slimefun4:RC-37") // Dropped
     compileOnly("de.tr7zw:item-nbt-api-plugin:2.14.1") // NBT
-    compileOnly("su.nightexpress.nightcore:nightcore:2.7.1") // NightCore
+    compileOnly("su.nightexpress.nightcore:nightcore:2.7.3") // NightCore
     compileOnly("org.geysermc.floodgate:api:2.4.4") // Cumulus
+    compileOnly("net.citizensnpcs:citizens-main:2.0.37-SNAPSHOT")
     /* 
      * Patched SpigotMC in case all org.bukkit.*, org.spigotmc.* is eliminated on PaperMC. 
      * Currently, there are no Status about removal of Bukkit 1.21.4-R0.1-SNAPSHOT 3339db1, Implemented on CraftBukkit Commit c294e05, which is known as Spigot Commit 33ece3e.
