@@ -13,7 +13,7 @@ public class main extends JavaPlugin implements SlimefunAddon {
   public void onLoad() {
   String ver = "1.20.6-R000-SNAPSHOT";
   String MC = "1.20.6";
-  String Cheat = "1.20.6-R0.1-SNAPSHOT"
+  String Cheat = "1.20.6-R0.1-SNAPSHOT";
     System.out.println("Loading Approximaster " + ver + "for " + MC + "...");
     Locale systemLocale = Locale.getDefault();
     TranslationManager translationManager = new TranslationManager(systemLocale);
